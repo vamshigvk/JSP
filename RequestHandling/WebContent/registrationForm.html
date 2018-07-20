@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration form</title>
+</head>
+<body>
+<form action="registrationProcessor" method="get">
+<table>
+<tr><td>Client name</td><td><input type=" text" name="name"></input></td></tr>
+<tr><td>Client Password</td><td><input type="password" name="password"></input></td></tr>
+<tr><td>Client Email</td><td><input type="email" name="email"></input></td></tr>
+</table>
+<hr>
+Country
+<select name="country">
+  <option value="india">india</option></br>
+  <option value="USA">USA</option></br>
+  <option value="Australia">Australia</option></br>
+  <option value="China">China</option></br>
+</select>
+<hr>
+Gender
+</br>
+<input type="radio" name="gender" value="male">Male</input></br>
+<input type="radio" name="gender" value="female">Female</input></br>
+<hr>
+Hobbies
+</br>
+<input type="checkbox" name="hobbies" value="singing">singing</input></br>
+<input type="checkbox" name="hobbies" value="dancing">dancing</input></br>
+<input type="checkbox" name="hobbies" value="reading">reading</input></br>
+<input type="checkbox" name="hobbies" value="Travelling">Travelling</input></br>
+<input type="submit" value="submit"/>
+<input type="reset" value="reset"/>
+</form>
+</body>
+</html>
